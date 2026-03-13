@@ -21,8 +21,10 @@
         android:id="@+id/editTextMessage"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:hint="@string/escribe_tu_mensaje"
         android:layout_margin="8dp"
+        android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/btnSend"
         app:layout_constraintStart_toStartOf="parent" />
